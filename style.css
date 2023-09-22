@@ -102,9 +102,9 @@ button:hover{
 
 
 /* About Section */
-.about{
-    /* margin-bottom: 100px; */
-}
+/* .about{
+    margin-bottom: 100px;
+} */
 .about p{
     columns: 2;
     font-family: Poppins;
