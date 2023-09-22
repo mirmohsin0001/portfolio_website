@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon+SC&family=Poppins:ital,wght@0,300;0,400;1,300&family=Roboto+Mono:ital@1&display=swap');
+ 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-family: IM FELL French Canon SC;
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 5.12px;
+}
+
+h2{
+    font-family: IM FELL French Canon SC;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 5.12px;
+    text-align: center;
+}
+
+
+body{
+    /* padding: 0 16px; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    margin: 0 20%;
+}
+
+section{
+    margin-bottom: 40px;
+}
+
+
+/* Landing Section */
+.hero{
+    padding: 120px 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+
+
+.hero-img p{
+    font-family: Roboto Mono;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.hero-background{
+    background-image: url(Assets/Rectangle\ 1.png);
+    width: 344px;
+    height: 535px;
+    text-align: right;
+    color: white;
+    padding: 0 7px;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.hero-text{
+    font-family: roboto mono;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 17px;
+    padding-top: 75px;
+    /* max-width: 300px; */
+}
+
+button a{
+    text-decoration: none;
+    color: black;
+    font-family: poppins;
+    font-size: 16px;
+}
+button{
+    display: inline;
+    background-color: transparent;
+    border: 1px solid black;
+    padding: 8px 30px;
+    width: 178px;
+}
+button:hover{
+    background-color: #f9f9f9;
+}
+/* End of landing section */
+
+
+
+/* About Section */
+.about{
+    padding: 0 0 0 16px;
+    /* columns: 2; */
+}
+
+.about p{
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 0.96px;
+    margin-right: 16px;
+}
+
+.about h1{
+    line-height: 50px;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+.me{
+    /* text-align: center; */
+    margin-bottom: -14px;
+    padding-left: 155px;
+    mix-blend-mode: multiply;
+}
+/* End of about section  */
+
+
+
+/* Skill Bars */
+.skills{
+    list-style: none;
+    padding: 0 16px;
+}
+
+.skills li{
+    margin: 10px 0;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0.96px;
+}
+
+.skills :nth-child(2) {
+    margin-top: 0px;
+}
+
+.bar{
+    background: #ffffff;
+    display: block;
+    height: 16px;
+    border: 1px solid black;
+    overflow: hidden;
+}
+.bar span{
+    height: 16px;
+    float: left;
+    background: #D9D9D9;
+}
+
+.figma{
+    width: 80%;
+}
+.illustrator{
+    width: 50%;
+}
+.photoshop{
+    width: 60%;
+}
+.css{
+    width: 70%;
+}
+.html{
+    width: 90%;
+}
+/* end of Skill Bars section */
+
+
+
+/* Contacts Section */
+.contacts{
+    margin-bottom: 0;
+    padding: 0 16px;
+}
+
+.contacts p {
+    font-family: poppins;
+    font-weight: 300;
+    font-size: 12px;
+    letter-spacing: 0.96px;
+}
+
+.contacts ul{
+    list-style: none;
+}
+
+.contacts ul li a{
+    text-decoration: none;
+    color: #000000;
+    font-family: poppins;
+    font-style: italic;
+    font-size: 12px;
+    font-weight: 300;
+    display: inline-block;
+    background-color: transparent;
+    border: 1px solid black;
+    padding: 8px 30px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 15px;
+    letter-spacing: 2px;
+}
+
+.image{
+    background-image: url(Assets/Rectangle\ 19.png);
+    width: auto;                /* note */
+    height: 155px;              /* note  //     "maintains aspect ratio"    */
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+/* End of Contacts Section */
+
+@media (min-width: 425px) {
+ 
+}
